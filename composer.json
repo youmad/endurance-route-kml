@@ -1,0 +1,33 @@
+{
+    "name": "youmad/endurance-route-kml",
+    "description": "KML path interpretation for immutable Route revisions",
+    "type": "library",
+    "license": "MPL-2.0",
+    "require": {
+        "php": "^8.5",
+        "youmad/endurance-foundation": "^0.1.2",
+        "youmad/endurance-geo": "^0.1.0",
+        "youmad/endurance-kml": "^0.1.0",
+        "youmad/endurance-route": "^0.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Youmad\\Endurance\\RouteKml\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Youmad\\Endurance\\RouteKml\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "check": [
+            "@composer validate --strict",
+            "@test"
+        ]
+    }
+}

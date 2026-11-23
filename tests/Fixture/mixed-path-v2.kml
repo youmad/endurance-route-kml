@@ -1,0 +1,17 @@
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2"><Document>
+<Placemark><MultiGeometry>
+  <LineString><altitudeMode>absolute</altitudeMode><coordinates>0,0,0 1,1,-2</coordinates></LineString>
+  <gx:MultiTrack><altitudeMode>absolute</altitudeMode><gx:interpolate>1</gx:interpolate>
+    <gx:Track>
+      <when>2026-11-06T10:00:00Z</when><when>2026-11-06T10:00:00Z</when>
+      <when>2026-11-06T09:59:59.123456789+00:00</when><when>2026-11-06T10:00:03Z</when>
+      <gx:coord>2 2 5</gx:coord><gx:coord/>
+      <gx:coord>3 3 6</gx:coord><gx:coord>3.5 3.5 7</gx:coord>
+    </gx:Track>
+    <gx:Track><when>2026-11-06T10:00:04Z</when><gx:coord>4 4 -5</gx:coord></gx:Track>
+  </gx:MultiTrack>
+  <Point><coordinates>9,8,100</coordinates></Point>
+  <LineString><coordinates>5,5,500 6,6,600</coordinates></LineString>
+</MultiGeometry><name>Late loop</name><description><![CDATA[<b>Source text</b>]]></description></Placemark>
+<Placemark/>
+</Document></kml>
