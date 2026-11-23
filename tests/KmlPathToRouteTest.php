@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Youmad\Endurance\RouteKml\Tests;
+namespace Endurance\RouteKml\Tests;
 
+use Endurance\Kml\Model\KmlObjectReadResult;
+use Endurance\Kml\Model\KmlPoint;
+use Endurance\Kml\Reader;
+use Endurance\RouteKml\KmlPathToRoute;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use Youmad\Endurance\Kml\Model\KmlObjectReadResult;
-use Youmad\Endurance\Kml\Model\KmlPoint;
-use Youmad\Endurance\Kml\Reader;
-use Youmad\Endurance\RouteKml\KmlPathToRoute;
 
 final class KmlPathToRouteTest extends TestCase
 {

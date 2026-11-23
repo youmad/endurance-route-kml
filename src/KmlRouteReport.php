@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Youmad\Endurance\RouteKml;
+namespace Endurance\RouteKml;
 
 final readonly class KmlRouteReport
 {

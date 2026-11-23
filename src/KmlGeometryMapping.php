@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Youmad\Endurance\RouteKml;
+namespace Endurance\RouteKml;
 
-use Youmad\Endurance\Route\Application\RevisionContent;
-use Youmad\Endurance\Route\ValueObject\RevisionProperties;
-use Youmad\Endurance\Route\ValueObject\RouteMetadata;
+use Endurance\Route\Application\RevisionContent;
+use Endurance\Route\ValueObject\RevisionProperties;
+use Endurance\Route\ValueObject\RouteMetadata;
 
 final readonly class KmlGeometryMapping
 {

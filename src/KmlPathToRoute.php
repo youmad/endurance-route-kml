@@ -2,23 +2,23 @@
 
 declare(strict_types=1);
 
-namespace Youmad\Endurance\RouteKml;
+namespace Endurance\RouteKml;
 
-use Youmad\Endurance\Foundation\ValueObject\Coordinate;
-use Youmad\Endurance\Geo\Elevation;
-use Youmad\Endurance\Geo\ElevationOrigin;
-use Youmad\Endurance\Geo\PathGeometry;
-use Youmad\Endurance\Geo\PathPoint;
-use Youmad\Endurance\Geo\PathPosition;
-use Youmad\Endurance\Kml\Model\AltitudeMode;
-use Youmad\Endurance\Kml\Model\KmlObject;
-use Youmad\Endurance\Kml\Model\KmlObjectReadResult;
-use Youmad\Endurance\Kml\Model\KmlPoint;
-use Youmad\Endurance\Route\Application\RevisionContent;
-use Youmad\Endurance\Route\ValueObject\GeometryCoverage;
-use Youmad\Endurance\Route\ValueObject\RevisionProperties;
-use Youmad\Endurance\Route\ValueObject\RevisionProvenance;
-use Youmad\Endurance\Route\ValueObject\RouteMetadata;
+use Endurance\Foundation\ValueObject\Coordinate;
+use Endurance\Geo\Elevation;
+use Endurance\Geo\ElevationOrigin;
+use Endurance\Geo\PathGeometry;
+use Endurance\Geo\PathPoint;
+use Endurance\Geo\PathPosition;
+use Endurance\Kml\Model\AltitudeMode;
+use Endurance\Kml\Model\KmlObject;
+use Endurance\Kml\Model\KmlObjectReadResult;
+use Endurance\Kml\Model\KmlPoint;
+use Endurance\Route\Application\RevisionContent;
+use Endurance\Route\ValueObject\GeometryCoverage;
+use Endurance\Route\ValueObject\RevisionProperties;
+use Endurance\Route\ValueObject\RevisionProvenance;
+use Endurance\Route\ValueObject\RouteMetadata;
 
 final readonly class KmlPathToRoute
 {

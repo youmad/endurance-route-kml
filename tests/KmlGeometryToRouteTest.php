@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Youmad\Endurance\RouteKml\Tests;
+namespace Endurance\RouteKml\Tests;
 
+use Endurance\Kml\Model\KmlPathPoint;
+use Endurance\Kml\Model\KmlPathReadResult;
+use Endurance\Kml\PathReader;
+use Endurance\Route\Application\Port\RouteRevisionWriter;
+use Endurance\Route\Application\RouteContentValidator;
+use Endurance\Route\ValueObject\RouteRevisionId;
+use Endurance\RouteKml\KmlGeometryToRoute;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use Youmad\Endurance\Kml\Model\KmlPathPoint;
-use Youmad\Endurance\Kml\Model\KmlPathReadResult;
-use Youmad\Endurance\Kml\PathReader;
-use Youmad\Endurance\Route\Application\Port\RouteRevisionWriter;
-use Youmad\Endurance\Route\Application\RouteContentValidator;
-use Youmad\Endurance\Route\ValueObject\RouteRevisionId;
-use Youmad\Endurance\RouteKml\KmlGeometryToRoute;
 
 final class KmlGeometryToRouteTest extends TestCase
 {

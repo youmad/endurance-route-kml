@@ -3,13 +3,13 @@
 Map selected KML geometry to Endurance Route content for PHP 8.5.
 
 ```bash
-composer require youmad/endurance-route-kml
+composer require endurance/route-kml
 ```
 
 Supply a completed `PathReader` result and a stable prepared point stream:
 
 ```php
-use Youmad\Endurance\RouteKml\KmlGeometryToRoute;
+use Endurance\RouteKml\KmlGeometryToRoute;
 
 $mapping = new KmlGeometryToRoute()->map($completedRead, $preparedPoints, $sourceReference);
 $route = $publisher->create(
